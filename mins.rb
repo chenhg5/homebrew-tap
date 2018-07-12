@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Mins < Formula
   desc "a mini restful resource server for frontend workers. Make it easy!"
-  homepage ""
+  homepage "https://github.com/chenhg5/mins/releases"
   url "https://github.com/chenhg5/mins/releases/download/0.0.4/mins.tar.gz"
   sha256 "b6f459a4bfdca841bf5c8e0ed5e797a4b1e1d23329a776335aafbb5c5eb0c174"
   # depends_on "cmake" => :build

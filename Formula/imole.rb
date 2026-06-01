@@ -7,7 +7,7 @@ class Imole < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/chenhg5/imole/releases/download/v0.1.0/imole-darwin-arm64"
-      sha256 "8bf37b597690982a200d89963bd6283c49fc64caf63132c131cf293645519948"
+      sha256 "e5e47c09cae9c339eacbc860bb419a699438a67f0662e5130c2c0409b0238de2"
     else
       url "https://github.com/chenhg5/imole/releases/download/v0.1.0/imole-darwin-amd64"
       sha256 "placeholder"

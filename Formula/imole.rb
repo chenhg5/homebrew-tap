@@ -2,12 +2,12 @@ class Imole < Formula
   desc "Open-source iPhone slimming toolkit for CLI"
   homepage "https://github.com/chenhg5/imole"
   license "MIT"
-  version "0.4.1"
+  version "0.5.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/chenhg5/imole/releases/download/v0.1.0/imole-darwin-arm64"
-      sha256 "e5e47c09cae9c339eacbc860bb419a699438a67f0662e5130c2c0409b0238de2"
+      sha256 "02d3ca9287ddcc2374a496c2cb4ca2a8a40f45fd136ebac4e6c0885c2138acb5"
     else
       url "https://github.com/chenhg5/imole/releases/download/v0.1.0/imole-darwin-amd64"
       sha256 "placeholder"
